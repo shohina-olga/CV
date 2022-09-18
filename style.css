@@ -99,3 +99,48 @@ a:visited {
 .contact h2 {
     text-align: center;
 }
+
+.form-group label {
+    display: block;
+    font-size: 14px;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid #ccc;
+    color: black;
+    padding: 15px 0 10px;
+    outline: none;
+    font-family: inherit;
+}
+
+.row {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.row > .form-group {
+    width: 50%;
+    margin-right: 20px;
+}
+
+.row > .form-group:last-child {
+    margin-right: 0;
+}
+
+.button {
+    background-color: transparent;
+    padding: 15px 20px;
+    color: black;
+    border: none;
+    font-family: inherit;
+    cursor: pointer;
+}
+
+.button:hover {
+    opacity: 0.9;
+}
